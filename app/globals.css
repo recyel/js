@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply h-full w-full bg-[#1b1b1c];
+  }
+}
+
+@layer utilities {
+  .font-bold {
+    font-family: var(--font-bold);
+  }
+  .font-regular {
+    font-family: var(--font-regular);
+  }
+  .font-extrabold {
+    font-family: var(--font-extrabold);
+  }
+  .font-medium {
+    font-family: var(--font-medium);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading-circle {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #1b1b1c;
+  border-top: 3px solid #48ff91;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
