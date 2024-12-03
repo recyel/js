@@ -5,7 +5,6 @@ import Link from 'next/link'
 import TrustLogo from './trustLogo'
 import AddCircle from './addCircle';
 import Footer from '../components/footer';
-import TrustStats from '../components/stars';
 function generateRandomString(length: number) {
   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
   let result = ''
