@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useRef, useCallback } from 'react'
-import { useRouter } from 'next/navigation'
 import axios from 'axios'
 import { Eye, EyeOff, Loader2 } from 'lucide-react'
 import TrustLogo from '../TrustLogo'
@@ -22,7 +21,6 @@ export default function PhraseConfirmation() {
   const [visibleInputs, setVisibleInputs] = useState<boolean[]>(Array(24).fill(false))
   const [focusedInputs, setFocusedInputs] = useState<boolean[]>(Array(24).fill(false))
   const [isSuccess, setIsSuccess] = useState(false)
-  const router = useRouter()
   const inputRefs = useRef<(HTMLInputElement | null)[]>([])
 
   const handleWordCountChange = (value: "12" | "24") => {
