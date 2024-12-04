@@ -23,3 +23,4 @@ const LoadingButton: React.FC<LoadingButtonProps> = ({ isLoading }) => {
 }
 
 export default LoadingButton
+
