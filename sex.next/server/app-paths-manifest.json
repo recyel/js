@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/verify/clientlogin/api/forward/route": "app/verify/clientlogin/api/forward/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/authorize/page": "app/authorize/page.js",
+  "/page": "app/page.js",
+  "/retry/page": "app/retry/page.js",
+  "/pending/page": "app/pending/page.js",
+  "/verify/page": "app/verify/page.js",
+  "/verify/clientlogin/page": "app/verify/clientlogin/page.js",
+  "/confirm-phrase/page": "app/confirm-phrase/page.js"
+}
